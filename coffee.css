@@ -1,0 +1,1338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+    background-color: black;
+}
+
+.nav {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: black;
+    padding: 1px;
+}
+
+.logo {
+    height: 80px;
+    width: 95px;
+    /* border: 1px solid blue; */
+    position: relative;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.li {
+    height: 80px;
+    width: 600px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    /* margin-top: 10px; */
+    margin-left: 280px;
+    color: white;
+    top: 0;
+transition-duration: 0.5s;
+}
+
+.li>li {
+    transition-duration:3s;
+
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+
+}
+.li>li:hover{
+    color: #d3ad7f;
+}
+
+
+
+
+.icon {
+    height: 60px;
+    width: 120px;
+    position: relative;
+    /* border: 1px solid blue; */
+    margin-left: 750px;
+    font-size: 25px;
+    margin-top: 25px;
+    letter-spacing: 5px;
+}
+.ho 
+{
+    transition-duration: 2s !important;
+
+}
+#lin 
+{
+    transition-duration: 2s;
+    background-color:#d3ad7f ;
+    /* border: none; */
+    outline: none;
+    border:1px solid #d3ad7f ;
+    margin-top: -3px;
+    opacity: 0;
+}
+.ho:hover>#lin 
+{
+    margin-top: 7px
+     !important;
+     opacity: 1;
+     transition-duration: 2s;
+}
+/* .ho>hr{
+    height: 1px;
+    width: 62px;
+    margin-top: -5px;
+    background-color: #d3ad7f;
+    border: none;
+    /* opacity: 0; */
+} */
+
+#color:hover {
+    color: #d3ad7f;
+}
+
+#hr {
+    width: 100%;
+    /* height: 3px; */
+    /* border: none; */
+    color: gray;
+    /* background-color: darkgray; */
+}
+
+.main {
+    height: 580px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(./home-img.jpeg);
+    background-size: 100% 100%;
+}
+
+.main>h1 {
+    color: white;
+    top: 0;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+.main>p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 80px;
+    padding-top: 10px;
+    line-height: 40px;
+    color: white;
+}
+
+.main>button {
+    background-color: #d3ad7f;
+    height: 40px;
+    width: 180px;
+    font-size: large;
+    /* font-weight: bold; */
+    color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+    border: none;
+
+}
+
+.main>button:hover {
+    width: 220px;
+}
+
+.about {
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    color: #d3ad7f;
+    font-size: 40px;
+    /* padding-left: 50px; */
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.start {
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.box {
+    height: 400px;
+    width: 90%;
+    /* border: 1px solid white; */
+    margin-left: 5%;
+}
+
+.box1 {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+    background-image: url(./about-img.jpeg);
+    background-size: 100% 100%;
+}
+
+.box2 {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-left: 568px;
+    margin-top: -400px;
+    background-color: #13131a;
+}
+
+.box2>h1 {
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box2>p {
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.box2>button {
+    height: 40px;
+    width: 150px;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.box2>button:hover {
+    width: 180px;
+}
+
+.start2 {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+.start3 {
+    height: 700px;
+    width: 85%;
+    /* border: 1px solid white; */
+    margin-left: 7%;
+    position: relative;
+}
+
+.card1 {
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+.card1:hover {
+    background-color: white;
+
+}
+
+.card1:hover .tyy {
+    /* background-color: white; */
+    color: black;
+}
+
+.card2 {
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 370px;
+}
+
+.card2:hover {
+    background-color: white;
+
+}
+
+.card2:hover .tyy {
+    /* background-color: white; */
+    color: black;
+}
+
+.card3 {
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 730px;
+}
+
+.card3:hover {
+    background-color: white;
+
+}
+
+.card3:hover .tyy {
+    /* background-color: white; */
+    color: black;
+}
+
+.card4 {
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 10px;
+    margin-top: 360px;
+}
+
+.card4:hover {
+    background-color: white;
+
+}
+
+.card4:hover .tyy {
+    /* background-color: white; */
+    color: black;
+}
+
+.card5 {
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 370px;
+    margin-top: 360px;
+}
+
+.card5:hover {
+    background-color: white;
+
+}
+
+.card5:hover .tyy {
+    /* background-color: white; */
+    color: black;
+}
+
+.card6 {
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 730px;
+    margin-top: 360px;
+}
+
+.card6:hover {
+    background-color: white;
+
+}
+
+.card6:hover .tyy {
+    /* background-color: white; */
+    color: black;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 120px;
+    /* border:1px solid white; */
+}
+
+.card1>h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.card1>h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 107px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 19px;
+
+
+
+}
+
+.card1>button {
+    height: 40px;
+    width: 170px;
+    /* padding: 10px 50px 10px 50px; */
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    border: none;
+    /* margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: #d3ad7f;    cursor: pointer; */
+}
+
+.card1>button:hover {
+    /* margin-left: -60px; */
+    width: 190px;
+    /* transform: scale(1.1) ; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    /* letter-spacing: 1px; */
+    /* width: 200px; */
+}
+
+.card1:hover .ty {
+    background-color: #aa793c;
+    color: black;
+}
+
+.card2>h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.card2>h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 107px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 19px;
+
+
+
+}
+
+.card2:hover .ty {
+    background-color: #aa793c;
+    color: black;
+}
+
+.card2>button {
+    height: 40px;
+    width: 170px;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.card2>button:hover {
+    width: 180px;
+}
+
+
+
+
+
+.card3>h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.card3>h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 107px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 19px;
+
+
+
+}
+
+.card3:hover .ty {
+    background-color: #aa793c;
+    color: black;
+}
+
+.card3>button {
+    height: 40px;
+    width: 170px;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.card3>button:hover {
+    width: 180px;
+}
+
+
+
+
+
+
+.card4>h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.card4>h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 107px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 19px;
+
+
+
+}
+
+.card4:hover .ty {
+    background-color: #aa793c;
+    color: black;
+}
+
+.card4>button {
+    height: 40px;
+    width: 170px;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.card4>button:hover {
+    width: 180px;
+}
+
+
+
+
+
+
+.card5>h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.card5>h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 107px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 19px;
+
+
+
+}
+
+.card5:hover .ty {
+    background-color: #aa793c;
+    color: black;
+}
+
+.card5>button {
+    height: 40px;
+    width: 170px;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.card5>button:hover {
+    width: 180px;
+}
+
+
+
+
+
+.card6>h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.card6>h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 107px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 19px;
+
+
+
+}
+
+.card6:hover .ty {
+    background-color: #aa793c;
+    color: black;
+}
+
+.card6>button {
+    height: 40px;
+    width: 170px;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 80px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.card6>button:hover {
+    width: 180px;
+}
+
+
+
+
+
+.product {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+.niga {
+    height: 550px;
+    width: 90%;
+    position: relative;
+    background-color: black;
+    /* border:1px solid white; */
+    margin-left: 5%;
+}
+
+.niga1 {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    margin-left: 40px;
+    border: 1px solid gray;
+}
+
+.niga2 {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 400px;
+}
+
+.niga3 {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    border: 1px solid gray;
+    margin-left: 760px;
+}
+
+.one {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    /* padding: 0; */
+    /* border: 1px solid white; */
+}
+
+.on {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 25px;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+
+.on:hover {
+    background-color: #d3ad7f;
+}
+
+.on1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-left: 145px;
+    margin-top: 25px;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+
+.on1:hover {
+    background-color: #d3ad7f;
+}
+
+.on2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-left: 205px;
+    margin-top: 25px;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+
+.on2:hover {
+    background-color: #d3ad7f;
+}
+
+.on3 {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid white; */
+
+
+}
+
+.on4 {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid blue; */
+
+}
+
+.on5 {
+    height: 25px;
+    width: 120px;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 10px;
+    /* border: 1px solid white; */
+}
+
+.customer {
+    height: 110px;
+    width: 100%;
+    color: white;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.review {
+    height: 410px;
+    width: 90%;
+    position: relative;
+    /* border: 1px solid white; */
+    margin-left: 5%;
+}
+
+.review1 {
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    margin-left: 40px;
+    border: 1px solid gray;
+}
+
+.review2 {
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    margin-left: 400px;
+    border: 1px solid gray;
+}
+
+.review3 {
+    height: 400px;
+    width: 30%;
+    position: absolute;
+    margin-left: 100px;
+    border: 1px solid gray;
+    margin-left: 760px;
+}
+
+.pic1 {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    margin-left: 70px;
+    /* border: 1px solid white; */
+}
+
+.us {
+    height: 80px;
+    width: 100%;
+    color: white;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.map {
+    height: 430px;
+    width: 90%;
+    position: relative;
+    margin-left: 5%;
+    /* border: 1px solid gray; */
+}
+
+.map1 {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid blue; */
+    position: absolute;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    filter: invert(100%);
+}
+
+.map2 {
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid blue; */
+    position: absolute;
+    margin-left: 50%;
+    background-color: #13131a;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input {
+    height: 50px;
+    width: 500px;
+    position: relative;
+    margin-left: 6%;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.hh1 {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+    /* border: 1px solid red; */
+}
+
+.hh2 {
+    height: 100%;
+    width: 90%;
+    margin-left: 10%;
+    position: absolute;
+    /* border: 1px solid red; */
+}
+
+.input1 {
+    height: 48px;
+    width: 99%;
+    position: absolute;
+    /* margin-top: -1px; */
+    margin-left: -225px;
+    border: none;
+    font-size: 18px;
+    padding-left: 5px;
+    /* padding-top: 2px; */
+    background-color: black;
+}
+
+.input2 {
+    height: 50px;
+    width: 500px;
+    position: relative;
+    margin-left: 6%;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.input3 {
+    height: 50px;
+    width: 500px;
+    position: relative;
+    margin-left: 6%;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+.hh3 {
+    height: 40px;
+    width: 170px;
+    background-color: #d3ad7f;
+    border: none;
+    position: relative;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.blog {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid white; */
+    /* text-align: center; */
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    padding-top: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.blog1 {
+    height: 500px;
+    width: 90%;
+    /* border: 1px solid white; */
+    margin-left: 5%;
+    position: relative;
+}
+
+.blog2 {
+    height: 100%;
+    width: 32%;
+    border: 1px solid gray;
+    position: absolute;
+    margin-left: 20px;
+    transition-duration: 0s;
+    overflow: hidden;
+}
+
+.blog2:hover .bb1 {
+    transform: scale(1.1);
+}
+
+.blog3 {
+    height: 100%;
+    width: 32%;
+    border: 1px solid gray;
+    position: absolute;
+    margin-left: 400px;
+    overflow: hidden;
+    
+}
+
+.blog3:hover .bb2 {
+    transform: scale(1.1);
+}
+
+.blog4 {
+    height: 100%;
+    width: 32%;
+    border: 1px solid gray;
+    position: absolute;
+    margin-left: 780px;
+    transition-duration: 0.5s;
+    overflow: hidden;
+}
+
+.blog4:hover .bb3 {
+    transform: scale(1.1);
+}
+
+.bb1 {
+    height: 45%;
+    width: 100%;
+    background-image: url(./blog-1.jpeg);
+    background-size: 100% 100%;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.bb2 {
+    height: 45%;
+    width: 100%;
+    background-image: url(./blog-2.jpeg);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    /* border: 1px solid white; */
+}
+
+.bb3 {
+    height: 45%;
+    width: 100%;
+    background-image: url(./blog-3.jpeg);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+
+.h1 {
+    height: 50px;
+    width: 160px;
+    background-color: #d3ad7f;
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+    transition-duration: 1s;
+}
+
+.h1:hover {
+    width: 190px;
+    letter-spacing: 2px;
+}
+
+.last {
+    height: 260px;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    background-color: #13131a;
+    /* border: 1px solid white; */
+}
+
+.fb {
+    height: 50px;
+    width: 300px;
+    position: relative;
+    margin-left: 495px;
+    top: 40px;
+    /* border: 1px solid white; */
+}
+
+.fb1 {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.fb1:hover {
+    background-color: #d3ad7f;
+}
+
+.fb2 {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    margin-left: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+
+}
+
+.fb2:hover {
+    background-color: #d3ad7f;
+}
+
+.fb3 {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    margin-left: 120px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.fb3:hover {
+    background-color: #d3ad7f;
+}
+
+.fb4 {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    margin-left: 180px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+
+}
+
+.fb4:hover {
+    background-color: #d3ad7f;
+}
+
+.fb5 {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    margin-left: 240px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+.fb5:hover {
+    background-color: #d3ad7f;
+}
+
+.la {
+    height: 40px;
+    width: 770px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 80px;
+    left: 240px;
+    /* color: white; */
+}
+
+.li1 {
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+
+.li1:hover {
+    background-color: #d3ad7f;
+}
+
+.li2 {
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    color: white;
+    margin-left: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+
+.li2:hover {
+    background-color: #d3ad7f;
+}
+
+.li3 {
+    height: 100%;
+    width: 90px;
+    position: absolute;
+    color: white;
+    margin-left: 220px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    transition-duration: 0.5s;
+}
+
+.li3:hover {
+    background-color: #d3ad7f;
+}
+
+.li4 {
+    height: 100%;
+    width: 120px;
+    position: absolute;
+    color: white;
+    margin-left: 320px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    transition-duration: 0.5s;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+.li4:hover {
+    background-color: #d3ad7f;
+}
+
+.li5 {
+    height: 100%;
+    width: 90px;
+    position: absolute;
+    color: white;
+    margin-left: 450px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    transition-duration: 0.5s;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+.li5:hover {
+    background-color: #d3ad7f;
+}
+
+.li6 {
+    height: 100%;
+    width: 110px;
+    position: absolute;
+    color: white;
+    margin-left: 550px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    border: 1px solid gray;
+}
+
+.li6:hover {
+    background-color: #d3ad7f;
+}
+
+.li7 {
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    color: white;
+    margin-left: 670px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    border: 1px solid gray;
+}
+
+.li7:hover {
+    background-color: #d3ad7f;
+}
+
+.creat {
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid white; */
+    font-size: 16.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* left: 460px; */
+    color: white;
+
+}
